@@ -10,7 +10,7 @@ const multer = require('multer');
 const cors=require('cors');
 const { json } = require('express');
 const path = require('path');
-const port=5000;
+const port=5500;
 
 dotenv.config();
 app.use(express.json());
